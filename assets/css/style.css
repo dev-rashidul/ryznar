@@ -1,0 +1,355 @@
+/* Base Styles CSS Start */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Styles CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+.navigation-container {
+  padding: 20px 100px;
+  background: #ffffff;
+  border-bottom: 1px solid #707070;
+}
+
+.navigation-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 300px;
+  width: 100%;
+}
+
+.navigation-container ul li a {
+  font-size: 24px;
+  font-weight: 800;
+  color: #585757;
+}
+
+/* Mobile Menu Section CSS Start */
+
+.mobile-menu-wrapper {
+  padding: 20px;
+}
+
+.mobile-menu-logo img {
+  max-width: 150px;
+}
+
+.menu-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #585757;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.menu-bar.active .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.menu-bar.active .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.menu-bar.active .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.menu-bar.active .toggler-icon {
+  background-color: #ffffff;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 85px;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  transition: left 0.3s ease-in-out;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.mobile-menu ul li {
+  padding: 8px 20px;
+}
+
+.mobile-menu ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #585757;
+}
+
+/* Mobile Menu Section CSS End */
+
+/* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-slide {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh;
+  max-height: 90vh;
+  height: 100%;
+}
+
+.hero-slide1 {
+  background: url(../images/hero-slider-img1.jpg);
+}
+
+.hero-slide2 {
+  background: url(../images/hero-slider-img2.jpeg);
+}
+
+.hero-slide3 {
+  background: url(../images/hero-slider-img3.jpeg);
+}
+
+.hero-slide-content {
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+}
+
+.hero-slide-content h2 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.hero-btn {
+  padding-top: 10px;
+}
+
+.hero-btn a {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #e91414;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Stats Section CSS Start */
+
+.stats-wrapper {
+  padding: 100px 10%;
+}
+
+.stats-card h1 {
+  position: relative;
+  font-size: 72px;
+  font-weight: 800;
+  color: #e91414;
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+
+.stats-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #585757;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+/* Stats Section CSS End */
+
+/* Work Process Section CSS Start */
+
+.work-process-wrapper {
+  padding: 0 50px;
+}
+
+.work-card-odd {
+  background: #e91414;
+  padding: 25px 50px;
+  margin-bottom: 20px;
+  border: 1px solid #707070;
+  border-radius: 12px;
+}
+
+.work-card-odd .work-card-content h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.work-card-odd .work-card-content ul li {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.work-card-even {
+  padding: 25px 50px;
+  margin-bottom: 20px;
+  border: 1px solid #707070;
+  border-radius: 12px;
+}
+
+.work-card-even .work-card-content h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #e91414;
+  margin-bottom: 0;
+}
+
+.work-card-even .work-card-content ul li {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e91414;
+}
+
+/* Work Process Section CSS End */
+
+/* Video Section CSS Start */
+
+.video-wrapper {
+  padding: 0 50px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.video-top h2 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #e91414;
+}
+
+.video-top span {
+  color: #707070;
+}
+
+.video-thumbnail {
+  max-width: 1230px;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.video-thumbnail > img {
+  max-width: 1230px;
+  width: 100%;
+  max-height: 830px;
+  height: 100%;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-bottom-content {
+  padding-top: 100px;
+}
+
+.video-bottom-content ul li {
+  font-size: 48px;
+  font-weight: 800;
+  color: #707070;
+}
+
+/* Video Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  padding-top: 120px;
+}
+
+.footer-container {
+  background: #e91414;
+  padding: 30px 50px;
+}
+
+.footer-title h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-contact {
+  padding-top: 40px;
+}
+
+.footer-contact ul li {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.footer-copyright {
+  padding-top: 80px;
+}
+
+.footer-copyright p {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Footer Part CSS End */

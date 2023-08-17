@@ -1,0 +1,112 @@
+/* =========***=========
+Responsive CSS
+=========***========= */
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navigation-container ul li a {
+    font-size: 20px;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-slide {
+    background-position: center center;
+    min-height: 70vh;
+    max-height: 70vh;
+    height: 100%;
+  }
+
+  .hero-slide-content {
+    left: 20px;
+    bottom: 50px;
+  }
+
+  .hero-slide-content h2 {
+    font-size: 36px;
+  }
+
+  .stats-wrapper {
+    padding: 60px 10%;
+  }
+
+  .stats-card {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .stats-card h1 {
+    font-size: 56px;
+  }
+
+  .stats-card h3 {
+    padding-left: 0;
+  }
+
+  .work-process-wrapper,
+  .video-wrapper {
+    padding: 0 20px;
+  }
+
+  .work-card-odd,
+  .work-card-even {
+    padding: 20px;
+  }
+
+  .work-card-odd .work-card-img {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .work-card-even .work-card-content {
+    padding-top: 50px;
+  }
+
+  .work-card-even .work-card-img {
+    text-align: center;
+  }
+
+  .video-wrapper {
+    padding-top: 60px;
+  }
+
+  .video-top h2 {
+    font-size: 30px;
+  }
+
+  .video-thumbnail > img {
+    min-height: 250px;
+    height: 100%;
+  }
+
+  .play-icon img {
+    max-width: 50px;
+  }
+
+  .video-bottom-content ul li {
+    font-size: 30px;
+    padding: 10px 0;
+    word-wrap: break-word;
+  }
+
+  .footer-container {
+    padding: 30px 20px;
+  }
+
+  .footer-title h2 {
+    font-size: 42px;
+  }
+
+  .footer-contact ul li {
+    font-size: 20px;
+  }
+}
