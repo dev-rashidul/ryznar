@@ -340,7 +340,8 @@ img {
   padding-top: 40px;
 }
 
-.footer-contact ul li {
+.footer-contact ul li,
+.footer-contact ul li a {
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
