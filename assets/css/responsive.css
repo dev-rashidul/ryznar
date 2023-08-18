@@ -99,13 +99,9 @@ Responsive CSS
     font-size: 30px;
   }
 
-  .video-thumbnail > img {
+  .video iframe {
     min-height: 200px;
     height: 100%;
-  }
-
-  .play-icon img {
-    max-width: 50px;
   }
 
   .video-bottom-content ul li {

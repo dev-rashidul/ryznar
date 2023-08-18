@@ -52,7 +52,7 @@ img {
 }
 
 .logo img {
-  max-width: 300px;
+  max-width: 220px;
   width: 100%;
 }
 
@@ -283,25 +283,14 @@ img {
   color: #707070;
 }
 
-.video-thumbnail {
+.video iframe {
   max-width: 1230px;
   width: 100%;
   margin: auto;
-  margin-top: 60px;
-}
-
-.video-thumbnail > img {
-  max-width: 1230px;
-  width: 100%;
-  max-height: 700px;
+  max-height: 600px;
+  min-height: 600px;
   height: 100%;
-}
-
-.play-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 60px;
 }
 
 .video-bottom-content {
@@ -482,7 +471,7 @@ Reference Page CSS
 /* Reference Section CSS Start */
 
 .reference-wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   margin: auto;
   padding: 80px 0 0;
