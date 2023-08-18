@@ -32,7 +32,7 @@ Responsive CSS
   }
 
   .hero-slide-content h2 {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .stats-wrapper {
@@ -45,7 +45,7 @@ Responsive CSS
   }
 
   .stats-card h1 {
-    font-size: 56px;
+    font-size: 42px;
   }
 
   .stats-card h3 {
@@ -67,6 +67,10 @@ Responsive CSS
     text-align: center;
   }
 
+  .work-card-img img {
+    max-width: 50%;
+  }
+
   .work-card-even .work-card-content {
     padding-top: 50px;
   }
@@ -84,7 +88,7 @@ Responsive CSS
   }
 
   .video-thumbnail > img {
-    min-height: 250px;
+    min-height: 200px;
     height: 100%;
   }
 
@@ -93,7 +97,7 @@ Responsive CSS
   }
 
   .video-bottom-content ul li {
-    font-size: 30px;
+    font-size: 24px;
     padding: 10px 0;
     word-wrap: break-word;
   }
@@ -103,7 +107,7 @@ Responsive CSS
   }
 
   .footer-title h2 {
-    font-size: 42px;
+    font-size: 36px;
   }
 
   .footer-contact ul li {
