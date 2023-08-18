@@ -474,3 +474,43 @@ table td {
 }
 
 /* Additional Services Section CSS End */
+
+/* ===========***===========
+Reference Page CSS
+===========***=========== */
+
+/* Reference Section CSS Start */
+
+.reference-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 0 0;
+}
+
+.reference-card {
+  padding-top: 80px;
+}
+
+.reference-card-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #e91414;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.more-btn {
+  padding-top: 100px;
+}
+
+.more-btn a {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #585757;
+}
+
+/* Reference Section CSS End */

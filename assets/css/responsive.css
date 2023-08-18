@@ -26,6 +26,18 @@ Responsive CSS
     height: 100%;
   }
 
+  .hero-slide1 {
+    background: url(../images/hero-mobile-slider-img1.jpg);
+  }
+
+  .hero-slide2 {
+    background: url(../images/hero-mobile-slider-img2.jpg);
+  }
+
+  .hero-slide3 {
+    background: url(../images/hero-mobile-slider-img3.jpg);
+  }
+
   .hero-slide-content {
     left: 20px;
     bottom: 50px;
@@ -115,7 +127,8 @@ Responsive CSS
   }
 
   .price-list-title h2,
-  .additional-services-title h2 {
+  .additional-services-title h2,
+  .reference-card-title h2 {
     font-size: 30px;
   }
 
@@ -132,5 +145,9 @@ Responsive CSS
   .add-services-bottom h5 {
     font-size: 16px;
     margin-left: 0 !important;
+  }
+
+  .reference-wrapper {
+    padding: 0 20px;
   }
 }
